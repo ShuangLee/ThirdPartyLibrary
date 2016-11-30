@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EF489A1DEED25000CE6E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF48991DEED25000CE6E13 /* AppDelegate.swift */; };
+		C4EF48A11DEED25000CE6E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48A01DEED25000CE6E13 /* Assets.xcassets */; };
+		C4EF48A41DEED25000CE6E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48A21DEED25000CE6E13 /* LaunchScreen.storyboard */; };
+		C4EF48AF1DEED25000CE6E13 /* Swift3_0_WeixinSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF48AE1DEED25000CE6E13 /* Swift3_0_WeixinSDKTests.swift */; };
+		C4EF48BA1DEED25000CE6E13 /* Swift3_0_WeixinSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF48B91DEED25000CE6E13 /* Swift3_0_WeixinSDKUITests.swift */; };
+		C4EF48CD1DEED30000CE6E13 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48C81DEED30000CE6E13 /* libWeChatSDK.a */; };
+		C4EF48CE1DEED30000CE6E13 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48C91DEED30000CE6E13 /* README.txt */; };
+		C4EF48D21DEED98B00CE6E13 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48D11DEED98B00CE6E13 /* SystemConfiguration.framework */; };
+		C4EF48D41DEED99A00CE6E13 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48D31DEED99A00CE6E13 /* libz.tbd */; };
+		C4EF48D61DEED9A700CE6E13 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48D51DEED9A700CE6E13 /* libsqlite3.0.tbd */; };
+		C4EF48D81DEED9B200CE6E13 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48D71DEED9B200CE6E13 /* libc++.tbd */; };
+		C4EF48DA1DEED9C400CE6E13 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48D91DEED9C400CE6E13 /* CoreTelephony.framework */; };
+		C4EF48DC1DEED9D200CE6E13 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48DB1DEED9D200CE6E13 /* Security.framework */; };
+		C4EF48DE1DEED9DE00CE6E13 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EF48DD1DEED9DE00CE6E13 /* CFNetwork.framework */; };
+		C4EF48E01DEEDD6500CE6E13 /* res6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48DF1DEEDD6500CE6E13 /* res6.gif */; };
+		C4EF48E21DEEE5F600CE6E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF48E11DEEE5F600CE6E13 /* ViewController.swift */; };
+		C4EF48E41DEEE5FC00CE6E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48E31DEEE5FC00CE6E13 /* Main.storyboard */; };
+		C4EF48E61DEEE74200CE6E13 /* lindan.gif in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48E51DEEE74200CE6E13 /* lindan.gif */; };
+		C4EF48E81DEEE74700CE6E13 /* res2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48E71DEEE74700CE6E13 /* res2.png */; };
+		C4EF48EA1DEEE75400CE6E13 /* userIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EF48E91DEEE75400CE6E13 /* userIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EF48AB1DEED25000CE6E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EF488E1DEED25000CE6E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EF48951DEED25000CE6E13;
+			remoteInfo = "Swift3.0-WeixinSDK";
+		};
+		C4EF48B61DEED25000CE6E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EF488E1DEED25000CE6E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EF48951DEED25000CE6E13;
+			remoteInfo = "Swift3.0-WeixinSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4EF48961DEED25000CE6E13 /* Swift3.0-WeixinSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift3.0-WeixinSDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EF48991DEED25000CE6E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4EF48A01DEED25000CE6E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EF48A31DEED25000CE6E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EF48A51DEED25000CE6E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EF48AA1DEED25000CE6E13 /* Swift3.0-WeixinSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift3.0-WeixinSDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EF48AE1DEED25000CE6E13 /* Swift3_0_WeixinSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_WeixinSDKTests.swift; sourceTree = "<group>"; };
+		C4EF48B01DEED25000CE6E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EF48B51DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift3.0-WeixinSDKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EF48B91DEED25000CE6E13 /* Swift3_0_WeixinSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_WeixinSDKUITests.swift; sourceTree = "<group>"; };
+		C4EF48BB1DEED25000CE6E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EF48C81DEED30000CE6E13 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		C4EF48C91DEED30000CE6E13 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		C4EF48CA1DEED30000CE6E13 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		C4EF48CB1DEED30000CE6E13 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		C4EF48CC1DEED30000CE6E13 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		C4EF48CF1DEED31F00CE6E13 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		C4EF48D11DEED98B00CE6E13 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C4EF48D31DEED99A00CE6E13 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C4EF48D51DEED9A700CE6E13 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C4EF48D71DEED9B200CE6E13 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C4EF48D91DEED9C400CE6E13 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C4EF48DB1DEED9D200CE6E13 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C4EF48DD1DEED9DE00CE6E13 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C4EF48DF1DEEDD6500CE6E13 /* res6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = res6.gif; sourceTree = "<group>"; };
+		C4EF48E11DEEE5F600CE6E13 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4EF48E31DEEE5FC00CE6E13 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C4EF48E51DEEE74200CE6E13 /* lindan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lindan.gif; sourceTree = "<group>"; };
+		C4EF48E71DEEE74700CE6E13 /* res2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = res2.png; sourceTree = "<group>"; };
+		C4EF48E91DEEE75400CE6E13 /* userIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EF48931DEED25000CE6E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF48DE1DEED9DE00CE6E13 /* CFNetwork.framework in Frameworks */,
+				C4EF48DC1DEED9D200CE6E13 /* Security.framework in Frameworks */,
+				C4EF48DA1DEED9C400CE6E13 /* CoreTelephony.framework in Frameworks */,
+				C4EF48D81DEED9B200CE6E13 /* libc++.tbd in Frameworks */,
+				C4EF48D61DEED9A700CE6E13 /* libsqlite3.0.tbd in Frameworks */,
+				C4EF48D41DEED99A00CE6E13 /* libz.tbd in Frameworks */,
+				C4EF48D21DEED98B00CE6E13 /* SystemConfiguration.framework in Frameworks */,
+				C4EF48CD1DEED30000CE6E13 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EF48A71DEED25000CE6E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EF48B21DEED25000CE6E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EF488D1DEED25000CE6E13 = {
+			isa = PBXGroup;
+			children = (
+				C4EF48981DEED25000CE6E13 /* Swift3.0-WeixinSDK */,
+				C4EF48AD1DEED25000CE6E13 /* Swift3.0-WeixinSDKTests */,
+				C4EF48B81DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests */,
+				C4EF48971DEED25000CE6E13 /* Products */,
+				C4EF48D01DEED98B00CE6E13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EF48971DEED25000CE6E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF48961DEED25000CE6E13 /* Swift3.0-WeixinSDK.app */,
+				C4EF48AA1DEED25000CE6E13 /* Swift3.0-WeixinSDKTests.xctest */,
+				C4EF48B51DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EF48981DEED25000CE6E13 /* Swift3.0-WeixinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF48C71DEED30000CE6E13 /* OpenSDK1.7.5 */,
+				C4EF48991DEED25000CE6E13 /* AppDelegate.swift */,
+				C4EF48E11DEEE5F600CE6E13 /* ViewController.swift */,
+				C4EF48E31DEEE5FC00CE6E13 /* Main.storyboard */,
+				C4EF48CF1DEED31F00CE6E13 /* bridge.h */,
+				C4EF48DF1DEEDD6500CE6E13 /* res6.gif */,
+				C4EF48E71DEEE74700CE6E13 /* res2.png */,
+				C4EF48E51DEEE74200CE6E13 /* lindan.gif */,
+				C4EF48E91DEEE75400CE6E13 /* userIcon.png */,
+				C4EF48A01DEED25000CE6E13 /* Assets.xcassets */,
+				C4EF48A21DEED25000CE6E13 /* LaunchScreen.storyboard */,
+				C4EF48A51DEED25000CE6E13 /* Info.plist */,
+			);
+			path = "Swift3.0-WeixinSDK";
+			sourceTree = "<group>";
+		};
+		C4EF48AD1DEED25000CE6E13 /* Swift3.0-WeixinSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF48AE1DEED25000CE6E13 /* Swift3_0_WeixinSDKTests.swift */,
+				C4EF48B01DEED25000CE6E13 /* Info.plist */,
+			);
+			path = "Swift3.0-WeixinSDKTests";
+			sourceTree = "<group>";
+		};
+		C4EF48B81DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF48B91DEED25000CE6E13 /* Swift3_0_WeixinSDKUITests.swift */,
+				C4EF48BB1DEED25000CE6E13 /* Info.plist */,
+			);
+			path = "Swift3.0-WeixinSDKUITests";
+			sourceTree = "<group>";
+		};
+		C4EF48C71DEED30000CE6E13 /* OpenSDK1.7.5 */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF48C81DEED30000CE6E13 /* libWeChatSDK.a */,
+				C4EF48C91DEED30000CE6E13 /* README.txt */,
+				C4EF48CA1DEED30000CE6E13 /* WechatAuthSDK.h */,
+				C4EF48CB1DEED30000CE6E13 /* WXApi.h */,
+				C4EF48CC1DEED30000CE6E13 /* WXApiObject.h */,
+			);
+			path = OpenSDK1.7.5;
+			sourceTree = "<group>";
+		};
+		C4EF48D01DEED98B00CE6E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4EF48DD1DEED9DE00CE6E13 /* CFNetwork.framework */,
+				C4EF48DB1DEED9D200CE6E13 /* Security.framework */,
+				C4EF48D91DEED9C400CE6E13 /* CoreTelephony.framework */,
+				C4EF48D71DEED9B200CE6E13 /* libc++.tbd */,
+				C4EF48D51DEED9A700CE6E13 /* libsqlite3.0.tbd */,
+				C4EF48D31DEED99A00CE6E13 /* libz.tbd */,
+				C4EF48D11DEED98B00CE6E13 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EF48951DEED25000CE6E13 /* Swift3.0-WeixinSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EF48BE1DEED25000CE6E13 /* Build configuration list for PBXNativeTarget "Swift3.0-WeixinSDK" */;
+			buildPhases = (
+				C4EF48921DEED25000CE6E13 /* Sources */,
+				C4EF48931DEED25000CE6E13 /* Frameworks */,
+				C4EF48941DEED25000CE6E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift3.0-WeixinSDK";
+			productName = "Swift3.0-WeixinSDK";
+			productReference = C4EF48961DEED25000CE6E13 /* Swift3.0-WeixinSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EF48A91DEED25000CE6E13 /* Swift3.0-WeixinSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EF48C11DEED25000CE6E13 /* Build configuration list for PBXNativeTarget "Swift3.0-WeixinSDKTests" */;
+			buildPhases = (
+				C4EF48A61DEED25000CE6E13 /* Sources */,
+				C4EF48A71DEED25000CE6E13 /* Frameworks */,
+				C4EF48A81DEED25000CE6E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EF48AC1DEED25000CE6E13 /* PBXTargetDependency */,
+			);
+			name = "Swift3.0-WeixinSDKTests";
+			productName = "Swift3.0-WeixinSDKTests";
+			productReference = C4EF48AA1DEED25000CE6E13 /* Swift3.0-WeixinSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EF48B41DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EF48C41DEED25000CE6E13 /* Build configuration list for PBXNativeTarget "Swift3.0-WeixinSDKUITests" */;
+			buildPhases = (
+				C4EF48B11DEED25000CE6E13 /* Sources */,
+				C4EF48B21DEED25000CE6E13 /* Frameworks */,
+				C4EF48B31DEED25000CE6E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EF48B71DEED25000CE6E13 /* PBXTargetDependency */,
+			);
+			name = "Swift3.0-WeixinSDKUITests";
+			productName = "Swift3.0-WeixinSDKUITests";
+			productReference = C4EF48B51DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EF488E1DEED25000CE6E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ls;
+				TargetAttributes = {
+					C4EF48951DEED25000CE6E13 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DL3534U4K3;
+						ProvisioningStyle = Automatic;
+					};
+					C4EF48A91DEED25000CE6E13 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4EF48951DEED25000CE6E13;
+					};
+					C4EF48B41DEED25000CE6E13 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4EF48951DEED25000CE6E13;
+					};
+				};
+			};
+			buildConfigurationList = C4EF48911DEED25000CE6E13 /* Build configuration list for PBXProject "Swift3.0-WeixinSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EF488D1DEED25000CE6E13;
+			productRefGroup = C4EF48971DEED25000CE6E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EF48951DEED25000CE6E13 /* Swift3.0-WeixinSDK */,
+				C4EF48A91DEED25000CE6E13 /* Swift3.0-WeixinSDKTests */,
+				C4EF48B41DEED25000CE6E13 /* Swift3.0-WeixinSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EF48941DEED25000CE6E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF48A41DEED25000CE6E13 /* LaunchScreen.storyboard in Resources */,
+				C4EF48E41DEEE5FC00CE6E13 /* Main.storyboard in Resources */,
+				C4EF48A11DEED25000CE6E13 /* Assets.xcassets in Resources */,
+				C4EF48E01DEEDD6500CE6E13 /* res6.gif in Resources */,
+				C4EF48E61DEEE74200CE6E13 /* lindan.gif in Resources */,
+				C4EF48E81DEEE74700CE6E13 /* res2.png in Resources */,
+				C4EF48CE1DEED30000CE6E13 /* README.txt in Resources */,
+				C4EF48EA1DEEE75400CE6E13 /* userIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EF48A81DEED25000CE6E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EF48B31DEED25000CE6E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EF48921DEED25000CE6E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF48E21DEEE5F600CE6E13 /* ViewController.swift in Sources */,
+				C4EF489A1DEED25000CE6E13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EF48A61DEED25000CE6E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF48AF1DEED25000CE6E13 /* Swift3_0_WeixinSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EF48B11DEED25000CE6E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EF48BA1DEED25000CE6E13 /* Swift3_0_WeixinSDKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EF48AC1DEED25000CE6E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EF48951DEED25000CE6E13 /* Swift3.0-WeixinSDK */;
+			targetProxy = C4EF48AB1DEED25000CE6E13 /* PBXContainerItemProxy */;
+		};
+		C4EF48B71DEED25000CE6E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EF48951DEED25000CE6E13 /* Swift3.0-WeixinSDK */;
+			targetProxy = C4EF48B61DEED25000CE6E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EF48A21DEED25000CE6E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EF48A31DEED25000CE6E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EF48BC1DEED25000CE6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4EF48BD1DEED25000CE6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EF48BF1DEED25000CE6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DL3534U4K3;
+				INFOPLIST_FILE = "Swift3.0-WeixinSDK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift3.0-WeixinSDK/OpenSDK1.7.5",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sl.Swift3-0-WeixinSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift3.0-WeixinSDK/bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4EF48C01DEED25000CE6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DL3534U4K3;
+				INFOPLIST_FILE = "Swift3.0-WeixinSDK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift3.0-WeixinSDK/OpenSDK1.7.5",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sl.Swift3-0-WeixinSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift3.0-WeixinSDK/bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4EF48C21DEED25000CE6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift3.0-WeixinSDKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sl.Swift3-0-WeixinSDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift3.0-WeixinSDK.app/Swift3.0-WeixinSDK";
+			};
+			name = Debug;
+		};
+		C4EF48C31DEED25000CE6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift3.0-WeixinSDKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sl.Swift3-0-WeixinSDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift3.0-WeixinSDK.app/Swift3.0-WeixinSDK";
+			};
+			name = Release;
+		};
+		C4EF48C51DEED25000CE6E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Swift3.0-WeixinSDKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sl.Swift3-0-WeixinSDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift3.0-WeixinSDK";
+			};
+			name = Debug;
+		};
+		C4EF48C61DEED25000CE6E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Swift3.0-WeixinSDKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sl.Swift3-0-WeixinSDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift3.0-WeixinSDK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EF48911DEED25000CE6E13 /* Build configuration list for PBXProject "Swift3.0-WeixinSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EF48BC1DEED25000CE6E13 /* Debug */,
+				C4EF48BD1DEED25000CE6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EF48BE1DEED25000CE6E13 /* Build configuration list for PBXNativeTarget "Swift3.0-WeixinSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EF48BF1DEED25000CE6E13 /* Debug */,
+				C4EF48C01DEED25000CE6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EF48C11DEED25000CE6E13 /* Build configuration list for PBXNativeTarget "Swift3.0-WeixinSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EF48C21DEED25000CE6E13 /* Debug */,
+				C4EF48C31DEED25000CE6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EF48C41DEED25000CE6E13 /* Build configuration list for PBXNativeTarget "Swift3.0-WeixinSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EF48C51DEED25000CE6E13 /* Debug */,
+				C4EF48C61DEED25000CE6E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EF488E1DEED25000CE6E13 /* Project object */;
+}
