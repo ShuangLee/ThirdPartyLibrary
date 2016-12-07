@@ -10,10 +10,13 @@
 ### 集成步骤
 1. 拖入微信sdk文件夹到项目中
 ![](http://ohdxn33p5.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-30%20%E4%B8%8B%E5%8D%885.48.27.png)
+
 2. 由于是Swift，需要建立桥接文件，导入微信sdk相关头文件
 ![](http://ohdxn33p5.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-30%20%E4%B8%8B%E5%8D%885.50.51.png)
+
 3. 导入相关类库
 ![](http://ohdxn33p5.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-30%20%E4%B8%8B%E5%8D%885.57.39.png)
+
 4. 自iOS 9起，系统策略更新，限制了http协议的访问，此外应用需要在“Info.plist”中将要使用的URL Schemes列为白名单。
 在“Info.plist”里增加如下代码
 
@@ -30,7 +33,6 @@
     <true/>
 </dict>
 ```
-
 5. 在 “info” -> “URL Types”中，新增一个 URL Schemes。新的 Schemes 命名是便是你注册的 AppID。（URL Schemes 的配置是为了让你跳转到微信发送消息后，还能跳回原来的App上。
 ![](http://ohdxn33p5.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-30%20%E4%B8%8B%E5%8D%886.04.48.png)
 	
